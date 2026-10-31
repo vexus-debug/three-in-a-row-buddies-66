@@ -13,6 +13,18 @@ export interface UpdateEntry {
 
 export const updates: UpdateEntry[] = [
   {
+    version: "v2.39.0",
+    date: "October 31, 2026",
+    title: "Dental lab itemised & consolidated invoicing",
+    kind: "feature",
+    items: [
+      { kind: "feature", text: "Invoice builder with units × price, add-ons (custom shade, wax-up, Ti-base), rush %, line discounts, CDT codes and tooth numbers." },
+      { kind: "feature", text: "Batch invoice: combine all ready cases for a practice (optionally within a date range) into one consolidated invoice." },
+      { kind: "feature", text: "Printable tax invoice with per-case itemisation, tax, bank details and a tear-off remittance slip." },
+      { kind: "feature", text: "Void unpaid invoices with a required reason; their cases return to Ready to invoice." },
+    ],
+  },
+  {
     version: "v2.38.0",
     date: "October 31, 2026",
     title: "Dental lab client accounts & Account 360",
